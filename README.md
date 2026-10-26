@@ -7,15 +7,15 @@ This is the official desktop download and support repository. Development is mai
 <!-- downloads:start -->
 ## Downloads
 
-**Latest testing release: [v0.2.0-alpha.2](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.2)**
+**Latest testing release: [v0.2.0-alpha.4](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.4)**
 
 | Your computer | Download |
 | --- | --- |
-| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-win-x64.exe) |
-| Mac with Apple Silicon (ARM64) | Signing correction in progress. The alpha.2 Mac app can show a damaged-app warning; please wait for the corrected testing build. |
-| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-linux-amd64.deb) |
+| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.4/Lark-Agent-Bridge-0.2.0-alpha.4-win-x64.exe) |
+| Mac with Apple Silicon (ARM64) | [Mac testing instructions and downloads](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.4#important-mac-testing-information). Not Apple-notarized; requires explicit macOS approval where available. |
+| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.4/Lark-Agent-Bridge-0.2.0-alpha.4-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.4/Lark-Agent-Bridge-0.2.0-alpha.4-linux-amd64.deb) |
 
-[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/SHA256SUMS.txt)
+[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.4/SHA256SUMS.txt)
 
 Downloads are public and do not require a GitHub account. Intel Mac builds are not included in this release.
 <!-- downloads:end -->
@@ -32,11 +32,17 @@ Keep the computer awake and online while the bot is running. Closing the window 
 
 ## Testing builds
 
-These early builds are unsigned and are intended for testing. Windows or macOS may show an unidentified-publisher notice. If your organization blocks unsigned applications, ask its administrator; the app does not change your computer's security policy.
+These early builds are intended for testing. Windows builds are unsigned. Mac builds have ad-hoc signatures but are not Apple-notarized and do not pass Gatekeeper approval; read the Mac testing notes before installing. If your organization blocks unsigned applications, ask its administrator; the app does not change your computer's security policy.
 
 Start with **Read files only**. **Create files and run commands** gives the agent your computer account's permissions, beyond the selected folder. Agent and Lark service charges, if any, belong to your own accounts.
 
 Updates are installed manually by downloading a newer installer. Your existing local settings and memories are kept. There is no automatic update service or bridge account registration in this testing version.
+
+## Files and folders
+
+Upload PDFs, images, Markdown/text files, ZIP archives or a folder directly in Lark. Wait for **Attachment received and ready**, then send your instruction. Native folders are expanded into individual files; the bridge provides a file inventory for your agent. Resend files or folders that an older version rejected or ignored.
+
+Processing is bounded: 30 MB per incoming file, up to 200 files per folder/archive and 80 MB total extracted/downloaded data. Text decoding is limited to 8 MB. Nested ZIPs are not automatically expanded. See the release notes for detailed limits.
 
 ## Help and feedback
 
