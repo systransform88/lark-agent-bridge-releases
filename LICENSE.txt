@@ -1,0 +1,37 @@
+Lark Agent Bridge - Proprietary Software License
+
+Copyright (c) 2026 systransform88. All rights reserved.
+
+1. Permission to use
+The copyright holder grants you a non-exclusive, non-transferable permission
+to install and use this unmodified release on devices you own or control
+for personal use or your organization's internal business use. You may make
+copies reasonably necessary for installation and backup. No fee is charged
+for this permission for this release.
+
+2. Reserved rights
+Except as expressly permitted above, by separate written permission, by a
+third-party component's license, or by applicable law, you may not modify,
+redistribute, sublicense, sell, or offer this software as a hosted service.
+No permission to access or redistribute the project's development source
+or to use its names or branding to endorse another product is granted.
+
+3. Third-party components
+Third-party software, fonts, codecs and other components remain subject to
+their own licenses and notices, which take precedence for those components.
+This license does not restrict any rights granted by their licenses.
+See THIRD_PARTY_NOTICES.md and the notices included with the application.
+You are responsible for your own agent accounts, Lark accounts, permissions
+and any charges from those services.
+
+4. No warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTIES OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW,
+THE COPYRIGHT HOLDER IS NOT LIABLE FOR CLAIMS, DAMAGES OR OTHER LIABILITY
+ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+5. Scope
+These terms apply to the first-party software in releases distributed with
+this license. They do not revoke rights granted under licenses accompanying
+earlier releases. Rights not expressly granted here are reserved.

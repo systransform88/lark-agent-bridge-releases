@@ -1,0 +1,8 @@
+release-staging/
+*.exe
+*.dmg
+*.zip
+*.AppImage
+*.deb
+*.log
+*.tmp
