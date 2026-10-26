@@ -7,7 +7,17 @@ This is the official desktop download and support repository. Development is mai
 <!-- downloads:start -->
 ## Downloads
 
-The first public testing release is being prepared. Installers will appear on the [Releases page](https://github.com/systransform88/lark-agent-bridge-releases/releases).
+**Latest testing release: [v0.2.0-alpha.2](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.2)**
+
+| Your computer | Download |
+| --- | --- |
+| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-win-x64.exe) |
+| Mac with Apple Silicon (M1/M2/M3/M4 or newer) | [Mac DMG](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-mac-arm64.dmg) · [ZIP](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-mac-arm64.zip) |
+| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-linux-amd64.deb) |
+
+[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/SHA256SUMS.txt)
+
+Downloads are public and do not require a GitHub account. Intel Mac builds are not included in this release.
 <!-- downloads:end -->
 
 ## Install and connect
