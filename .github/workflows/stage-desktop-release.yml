@@ -1,0 +1,38 @@
+name: Stage verified desktop release
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing draft release tag
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: stage-desktop-${{ inputs.tag }}
+  cancel-in-progress: false
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Download only the selected installer artifacts
+        run: node .github/scripts/fetch-installers.mjs
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+          RELEASE_WINDOWS_URL: ${{ secrets.RELEASE_WINDOWS_URL }}
+          RELEASE_LINUX_URL: ${{ secrets.RELEASE_LINUX_URL }}
+          RELEASE_MAC_URL: ${{ secrets.RELEASE_MAC_URL }}
+      - name: Validate and unpack installer files
+        run: python3 .github/scripts/stage-installers.py
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+      - name: Upload to the existing draft and verify digests
+        run: node .github/scripts/upload-installers.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
