@@ -12,7 +12,7 @@ This is the official desktop download and support repository. Development is mai
 | Your computer | Download |
 | --- | --- |
 | Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-win-x64.exe) |
-| Mac with Apple Silicon (M1/M2/M3/M4 or newer) | [Mac DMG](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-mac-arm64.dmg) · [ZIP](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-mac-arm64.zip) |
+| Mac with Apple Silicon (ARM64) | Signing correction in progress. The alpha.2 Mac app can show a damaged-app warning; please wait for the corrected testing build. |
 | Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/Lark-Agent-Bridge-0.2.0-alpha.2-linux-amd64.deb) |
 
 [All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.2/SHA256SUMS.txt)
