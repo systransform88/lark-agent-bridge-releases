@@ -7,15 +7,15 @@ This is the official desktop download and support repository. Development is mai
 <!-- downloads:start -->
 ## Downloads
 
-**Latest testing release: [v0.2.0-alpha.4](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.4)**
+**Latest testing release: [v0.2.0-alpha.5](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.5)**
 
 | Your computer | Download |
 | --- | --- |
-| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.4/Lark-Agent-Bridge-0.2.0-alpha.4-win-x64.exe) |
-| Mac with Apple Silicon (ARM64) | [Mac testing instructions and downloads](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.4#important-mac-testing-information). Not Apple-notarized; requires explicit macOS approval where available. |
-| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.4/Lark-Agent-Bridge-0.2.0-alpha.4-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.4/Lark-Agent-Bridge-0.2.0-alpha.4-linux-amd64.deb) |
+| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.5/Lark-Agent-Bridge-0.2.0-alpha.5-win-x64.exe) |
+| Mac with Apple Silicon (ARM64) | [Mac testing instructions and downloads](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.5#important-mac-testing-information). Not Apple-notarized; requires explicit macOS approval where available. |
+| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.5/Lark-Agent-Bridge-0.2.0-alpha.5-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.5/Lark-Agent-Bridge-0.2.0-alpha.5-linux-amd64.deb) |
 
-[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.4/SHA256SUMS.txt)
+[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.5/SHA256SUMS.txt)
 
 Downloads are public and do not require a GitHub account. Intel Mac builds are not included in this release.
 <!-- downloads:end -->
@@ -24,7 +24,7 @@ Downloads are public and do not require a GitHub account. Intel Mac builds are n
 
 1. Download the installer for your operating system and processor from the release assets. You do not need the automatically generated **Source code** ZIP or tar.gz; those contain this download page.
 2. Install and open **Lark Agent Bridge**. On Windows, run the `.exe` installer; on macOS, open the `.dmg` and drag the app into Applications; on Linux, install the `.deb` or allow the AppImage to run as a program in its file properties.
-3. Follow the four setup steps: choose your AI agent, create or connect a Lark bot, choose a work folder and access level, then send a test message in Lark.
+3. Follow the four setup steps: choose your AI agent, create or connect a Lark bot and select its optional features, choose a work folder and computer access level, then send a test message in Lark.
 
 You need Codex CLI or Claude Code installed and signed in with your own account. The app includes the bridge runtime and Lark CLI. Your Lark organization may require administrator approval for bot creation or permissions.
 
@@ -34,9 +34,17 @@ Keep the computer awake and online while the bot is running. Closing the window 
 
 These early builds are intended for testing. Windows builds are unsigned. Mac builds have ad-hoc signatures but are not Apple-notarized and do not pass Gatekeeper approval; read the Mac testing notes before installing. If your organization blocks unsigned applications, ask its administrator; the app does not change your computer's security policy.
 
-Start with **Read files only**. **Create files and run commands** gives the agent your computer account's permissions, beyond the selected folder. Agent and Lark service charges, if any, belong to your own accounts.
+Start with **Read local files only** under Computer access. **Create local files and run commands** gives the agent your computer account's permissions, beyond the selected folder. Agent and Lark service charges, if any, belong to your own accounts.
 
 Updates are installed manually by downloading a newer installer. Your existing local settings and memories are kept. There is no automatic update service or bridge account registration in this testing version.
+
+## Choose Lark features
+
+Setup and Settings let you select Documents & Drive, Sheets, Slides, Wiki, Base, Tasks, Calendar, Meetings & Minutes, Contacts and Email. More features contains OKR, Approvals and Attendance. Optional choices start unchecked on new profiles; chat/account authorization remains required. Selected features act as you and may include management operations. Review Lark's exact consent screen.
+
+Selections control the next authorization request, not a runtime tool allowlist. Unchecking a feature does not revoke existing Lark permissions. Existing profiles may already have broader grants; remove those through Lark's authorization management if needed. Bot permissions, organization approval and resource sharing are separate.
+
+Computer access does not grant or revoke Lark permissions. Lark CLI actions also depend on agent command and network access.
 
 ## Files and folders
 
