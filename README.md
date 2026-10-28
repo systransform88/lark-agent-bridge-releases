@@ -7,15 +7,15 @@ This is the official desktop download and support repository. Development is mai
 <!-- downloads:start -->
 ## Downloads
 
-**Latest testing release: [v0.2.0-alpha.5](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.5)**
+**Latest testing release: [v0.2.0-alpha.6](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.6)**
 
 | Your computer | Download |
 | --- | --- |
-| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.5/Lark-Agent-Bridge-0.2.0-alpha.5-win-x64.exe) |
-| Mac with Apple Silicon (ARM64) | [Mac testing instructions and downloads](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.5#important-mac-testing-information). Not Apple-notarized; requires explicit macOS approval where available. |
-| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.5/Lark-Agent-Bridge-0.2.0-alpha.5-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.5/Lark-Agent-Bridge-0.2.0-alpha.5-linux-amd64.deb) |
+| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.6/Lark-Agent-Bridge-0.2.0-alpha.6-win-x64.exe) |
+| Mac with Apple Silicon (ARM64) | [Mac testing instructions and downloads](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.6#important-mac-testing-information). Not Apple-notarized; requires explicit macOS approval where available. |
+| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.6/Lark-Agent-Bridge-0.2.0-alpha.6-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.6/Lark-Agent-Bridge-0.2.0-alpha.6-linux-amd64.deb) |
 
-[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.5/SHA256SUMS.txt)
+[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.6/SHA256SUMS.txt)
 
 Downloads are public and do not require a GitHub account. Intel Mac builds are not included in this release.
 <!-- downloads:end -->
@@ -51,6 +51,10 @@ Computer access does not grant or revoke Lark permissions. Lark CLI actions also
 Upload PDFs, images, Markdown/text files, ZIP archives or a folder directly in Lark. Wait for **Attachment received and ready**, then send your instruction. Native folders are expanded into individual files; the bridge provides a file inventory for your agent. Resend files or folders that an older version rejected or ignored.
 
 Processing is bounded: 30 MB per incoming file, up to 200 files per folder/archive and 80 MB total extracted/downloaded data. Text decoding is limited to 8 MB. Nested ZIPs are not automatically expanded. See the release notes for detailed limits.
+
+## Authorization troubleshooting
+
+Alpha 6 fixes repeated agent/Lark sign-in prompts. After installing, open Settings and select Check connection. Agent sign-in and Lark authorization are separate. If a sign-in has genuinely expired, renew only the service identified by the error. If an older build saved an empty Lark owner, reconnect your existing Lark account once. Settings and memories are retained.
 
 ## Help and feedback
 
