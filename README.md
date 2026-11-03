@@ -7,15 +7,15 @@ This is the official desktop download and support repository. Development is mai
 <!-- downloads:start -->
 ## Downloads
 
-**Latest testing release: [v0.2.0-alpha.7](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.7)**
+**Latest testing release: [v0.2.0-alpha.8](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.8)**
 
 | Your computer | Download |
 | --- | --- |
-| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.7/Lark-Agent-Bridge-0.2.0-alpha.7-win-x64.exe) |
-| Mac with Apple Silicon (ARM64) | [Mac testing instructions and downloads](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.7#important-mac-testing-information). Not Apple-notarized; requires explicit macOS approval where available. |
-| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.7/Lark-Agent-Bridge-0.2.0-alpha.7-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.7/Lark-Agent-Bridge-0.2.0-alpha.7-linux-amd64.deb) |
+| Windows x64 | [Windows installer](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.8/Lark-Agent-Bridge-0.2.0-alpha.8-win-x64.exe) |
+| Mac with Apple Silicon (ARM64) | [Mac testing instructions and downloads](https://github.com/systransform88/lark-agent-bridge-releases/releases/tag/v0.2.0-alpha.8#important-mac-testing-information). Not Apple-notarized; requires explicit macOS approval where available. |
+| Linux x64 | [AppImage](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.8/Lark-Agent-Bridge-0.2.0-alpha.8-linux-x86_64.AppImage) · [Debian/Ubuntu package](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.8/Lark-Agent-Bridge-0.2.0-alpha.8-linux-amd64.deb) |
 
-[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.7/SHA256SUMS.txt)
+[All releases](https://github.com/systransform88/lark-agent-bridge-releases/releases) · [SHA-256 checksums](https://github.com/systransform88/lark-agent-bridge-releases/releases/download/v0.2.0-alpha.8/SHA256SUMS.txt)
 
 Downloads are public and do not require a GitHub account. Intel Mac builds are not included in this release.
 <!-- downloads:end -->
@@ -26,9 +26,9 @@ Downloads are public and do not require a GitHub account. Intel Mac builds are n
 2. Install and open **Lark Agent Bridge**. On Windows, run the `.exe` installer; on macOS, open the `.dmg` and drag the app into Applications; on Linux, install the `.deb` or allow the AppImage to run as a program in its file properties.
 3. Follow the four setup steps: choose your AI agent, create or connect a Lark bot and select its optional features, choose a work folder and computer access level, then send a test message in Lark.
 
-You need Codex CLI or Claude Code installed and signed in with your own account. The app includes the bridge runtime and Lark CLI. Your Lark organization may require administrator approval for bot creation or permissions.
+Install and sign in using the official [Codex CLI setup guide](https://learn.chatgpt.com/docs/codex/cli) or [Claude Code Quickstart](https://code.claude.com/docs/en/quickstart), then return to the bridge and select **Check installation again**. You need your own agent account. The app includes the bridge runtime and Lark CLI. Your Lark organization may require administrator approval for bot creation or permissions.
 
-Keep the computer awake and online while the bot is running. Closing the window keeps the bridge in the system tray when a tray is available; choose Quit to exit. Use Pause bot to disconnect or Cancel task to interrupt work.
+Keep the computer awake and online while the bot is running. Closing the window keeps the bridge in the system tray when a tray is available; choose Quit to exit. Use Pause bot to disconnect or Cancel task to interrupt work. Home and Activity show task stages, elapsed time and time since the last progress event. An amber warning after a minute without progress means the provider or tool may still be processing. `/new` cancels the active task, clears queued requests and resets conversation context while retaining permanent memories and local files.
 
 ## Testing builds
 
