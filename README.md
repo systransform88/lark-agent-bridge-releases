@@ -36,6 +36,8 @@ These early builds are intended for testing. Windows builds are unsigned. Mac bu
 
 Start with **Read local files only** under Computer access. **Create local files and run commands** gives the agent your computer account's permissions, beyond the selected folder. Agent and Lark service charges, if any, belong to your own accounts.
 
+Find the installed version in **Settings ? About Lark Agent Bridge** or at the bottom of the sidebar. The current alpha.8 downloads include this About section; reinstall alpha.8 if you downloaded it before this addition.
+
 Updates are installed manually by downloading a newer installer. Your existing local settings and memories are kept. There is no automatic update service or bridge account registration in this testing version.
 
 ## Choose Lark features
