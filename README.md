@@ -48,6 +48,14 @@ Selections control the next authorization request, not a runtime tool allowlist.
 
 Computer access does not grant or revoke Lark permissions. Lark CLI actions also depend on agent command and network access.
 
+## Agent identity and saved references
+
+Define the assistant's name, role, business context, style, language and action boundaries in **Settings ? Agent identity**, or optionally during setup. Changes apply to the next request and survive `/new`; they do not grant additional permissions.
+
+On Home, **Recent Links** lists Lark resource links from chat and agent replies. **Refresh from chat** scans the latest 50 messages. **Save to memory** records a link with a name and description in the existing permanent memory store so you can refer to it in future requests. Existing names and duplicate links are protected.
+
+Home prioritizes the compact connection section, Recent Links, task status and Recent Activity. These additions are included in the refreshed alpha.8 installers. Reinstall alpha.8 if you downloaded an earlier build of the same version.
+
 ## Files and folders
 
 Upload PDFs, images, Markdown/text files, ZIP archives or a folder directly in Lark. Wait for **Attachment received and ready**, then send your instruction. Native folders are expanded into individual files; the bridge provides a file inventory for your agent. Resend files or folders that an older version rejected or ignored.
